@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(6, 6, 113);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(23, 23, 65);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    font-size: 1.2rem;
+    color: antiquewhite;
+}
+
+nav ul li {
+    justify-content: space-between;
+    margin: 0 23px;
+}
+
+.leftnav {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+
+}
+
+.leftsection img {
+    width: 28%;
+    opacity: 35%;
+    border-radius: 30%;
+    position: absolute;
+    top: 100px;
+}
+
+.rightsection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+hr {
+    width: 100%;
+    border: 2.5px solid;
+}
+
+p {
+    font-size: 1.22rem;
+    text-indent: 50px;
+    text-justify: auto;
+}
+
+.special {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.special a {
+    color: white;
+}
+
+.headers {
+    font-size: 2rem;
+    text-align: center;
+    margin:3rem 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lumanosimo', cursive;
+}
+
+.Skills ul {
+    padding-top: 20px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Skills {
+    justify-content: center;
+}
+
+.Projects p {
+    padding-top: 3rem;
+}
+.Projects img{
+    opacity: 75%;
+    width: 500px;
+    float: right;
+    vertical-align: middle;
+    padding-right: 50px;
+} 
+.Resume a {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lumanosimo', cursive;
+}
+
+.Contact-Me p {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lumanosimo', cursive;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lumanosimo', cursive;
+}
+
+footer p {
+    margin: 0;
+}
